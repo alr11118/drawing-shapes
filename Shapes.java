@@ -19,6 +19,10 @@ public class Shapes {
         myTurtle.down();
         
         for(int i = 0; i<numOfSides; i++){
+         for(int j = 0; j<numOfSides; j++){
+               myTurtle.forward(20);
+               myTurtle.right(360/numOfSides);
+         }
          myTurtle.forward(100);
          myTurtle.right(360/numOfSides);
         }

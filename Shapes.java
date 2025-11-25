@@ -1,19 +1,30 @@
 public class Shapes {
     public static void main(String[] args) {
+        Turtle myTurtle = new Turtle();
+        myTurtle.up();
         // Task 1: Draw a regular shape
+        int numOfSides = 4;
+        myTurtle.setPosition(-200, 200);
+        myTurtle.down();
+        for(int i = 0; i<numOfSides; i++){
+         myTurtle.forward(50);
+         myTurtle.right(360/numOfSides);
+        }
 
 
         // Task 2: Draw a regular shape many times
 
 
         // Task 3: How many times does Turtle turn!
-        //tttttttttttttttttttttttttttttttttttttttt
+        
 
 
         // Extension 1:
 
 
         // Extension 2:
+        
+        myTurtle.show();
 
     }
 }

@@ -1,3 +1,18 @@
+##Debugging Notes
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Specification
 
 ## 📖 Learning Objectives

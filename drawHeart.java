@@ -3,7 +3,7 @@ public class drawHeart {
         Turtle myTurtle = new Turtle();
         myTurtle.speed(10);
         myTurtle.penColor("red");
-        myTurtle.width(5);
+        myTurtle.width(15);
 
         myTurtle.left(40);
         myTurtle.forward(100);

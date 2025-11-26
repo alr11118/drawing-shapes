@@ -56,6 +56,18 @@ public class Shapes {
          }
 
         // Extension 2:
+        int randomY = 0;
+        for(int j =0; j<100; j++){
+         randomY = (int)(Math.random()*1000)-500;
+         myTurtle.up();
+         myTurtle.setPosition(200, randomY);
+         myTurtle.down();
+         for(int i = 0; i<3; i++){
+            myTurtle.forward(50);
+            myTurtle.right(120);
+         }
+        }
+
         
         myTurtle.show();
 

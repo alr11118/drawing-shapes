@@ -46,11 +46,9 @@ public class Shapes {
         
 
         // Extension 1:
-        myTurtle.up();
-        myTurtle.setPosition(-400, -400);
-        myTurtle.down();
+        setTurtle(myTurtle, -400, -400);
         
-        for(int i = 0; i<=200; i++){
+      for(int i = 0; i<=200; i++){
          myTurtle.forward(i);
             myTurtle.right(90);
          }
@@ -59,9 +57,7 @@ public class Shapes {
         int randomY = 0;
         for(int j =0; j<100; j++){
          randomY = (int)(Math.random()*1000)-500;
-         myTurtle.up();
-         myTurtle.setPosition(200, randomY);
-         myTurtle.down();
+         setTurtle(myTurtle, 200, randomY);
          for(int i = 0; i<3; i++){
             myTurtle.forward(50);
             myTurtle.right(120);
@@ -71,5 +67,10 @@ public class Shapes {
         
         myTurtle.show();
 
+    }
+    public static void setTurtle(Turtle myTurtle, int x, int y){
+      myTurtle.up();
+      myTurtle.setPosition(x, y);
+      myTurtle.down();
     }
 }

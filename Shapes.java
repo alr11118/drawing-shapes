@@ -28,7 +28,13 @@ public class Shapes {
 
 
         // Task 3: How many times does Turtle turn!
-        
+        myTurtle.up();
+        myTurtle.setPosition(100, 0);
+        myTurtle.down();
+        for (int i = 0; i < 360; i++){
+            myTurtle.right(1);
+            myTurtle.forward(1);
+        }
 
 
         // Extension 1:

@@ -1,9 +1,10 @@
 public class Shapes {
     public static void main(String[] args) {
         Turtle myTurtle = new Turtle();
+        myTurtle.speed(10);
         myTurtle.up();
         // Task 1: Draw a regular shape
-        int numOfSides = 8;
+        int numOfSides = 5;
         myTurtle.setPosition(-200, 200);
         
         myTurtle.down();
@@ -28,7 +29,7 @@ public class Shapes {
 
 
         // Task 3: How many times does Turtle turn!
-        int turnCount = 0;
+        int totalTurns = 0;
         myTurtle.up();
         myTurtle.setPosition(50, -100);
         myTurtle.down();
@@ -37,16 +38,22 @@ public class Shapes {
          for(int j = 0; j<numOfSides; j++){
                myTurtle.forward(50);
                myTurtle.right(360/numOfSides);
-               turnCount +=1;
+               totalTurns +=1;
          }
          myTurtle.right(36);
-         turnCount +=1;
         }
-        System.out.println(turnCount);
+        System.out.println("myTurtle has turned " + totalTurns + " times!");
         
 
         // Extension 1:
-
+        myTurtle.up();
+        myTurtle.setPosition(-400, -400);
+        myTurtle.down();
+        
+        for(int i = 0; i<=200; i++){
+         myTurtle.forward(i);
+            myTurtle.right(90);
+         }
 
         // Extension 2:
         

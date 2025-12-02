@@ -1,6 +1,6 @@
-#Debugging Notes
+# Debugging Notes
 
-##Times my code didnt do what I wanted it to do:
+## Times my code didnt do what I wanted it to do:
 
 \- I forgot to set myTurtle.up(); and myTurtle.down(); so it kept drawing when it was moving between tasks.
 

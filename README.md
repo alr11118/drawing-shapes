@@ -11,16 +11,8 @@ Times my code didnt do what I wanted it to do:
    
 Times my code didnt compile:
 
- - illegal start of expression
-
-
-
-
-
-
-
-
-
+ - I got the eror "illegal start of expression".
+   How did I solve it? I was already fammiliar with this bug so I went back and checked my {}'s, it turned out when I was copy pasting my code from task 2 to task 3 I didnt copy the last '}' and it was what was causing the erorr. 
 
 
 

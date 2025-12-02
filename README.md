@@ -1,23 +1,6 @@
-##Debugging Notes
-Times my code didnt do what I wanted it to do:
- - I forgot to set myTurtle.up(); and myTurtle.down(); so it kept drawing when it was moving between tasks.
-   How did I solve it? I went back chcecked the documents about the turtle library and added these code pieces to my code when myTurtle was moving between tasks:
-        myTurtle.up();
-        myTurtle.setPosition(50, 200);
-        myTurtle.down();
-        
-  - myTurtle was not turning at the right spots for task 2.
-   How did I solve it? I went back reread the code related to that task, I realised I used i variable for both my for loops so I changed my second variable to be j. 
-   
-Times my code didnt compile:
+#Debugging Notes
 
- - I got the eror "illegal start of expression".
-   How did I solve it? I was already fammiliar with this bug so I went back and checked my {}'s, it turned out when I was copy pasting my code from task 2 to task 3 I didnt copy the last '}' and it was what was causing the erorr. 
-
-
-Debugging Notes
-
-Times my code didnt do what I wanted it to do:
+##Times my code didnt do what I wanted it to do:
 
 \- I forgot to set myTurtle.up(); and myTurtle.down(); so it kept drawing when it was moving between tasks.
 
@@ -33,7 +16,7 @@ myTurtle.down();
 
 How did I solve it? I went back reread the code related to that task, I realised I used i variable for both my for loops so I changed my second variable to be j.
 
-Times my code didnt compile:
+##Times my code didnt compile:
 
 \- I got the eror "illegal start of expression".
 
